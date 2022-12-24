@@ -1,0 +1,11 @@
+favian=read.delim("clipboard")
+View(favian)
+str(favian)
+mean(favian$Volume)
+t.test(favian$Volume, mu=10)
+
+favian=read.delim("clipboard")
+View(favian)
+str(favian)
+mean(favian$Pendapatan)
+t.test(favian$Pendapatan, mu=14500)
